@@ -4,9 +4,10 @@ body{
 .flexbox{
     width: 1440px;
     height: 1721px;
-    display: flex;
+
 }
 .header{
+    display: flex;
     width: 1136px;
     height: 178px;
     padding: 0 52px 0 52px;
@@ -52,4 +53,15 @@ body{
     font-weight: 400px;
     text-align: center;
     color: #5F6980;
+}
+.cards{
+    display: flex;
+    width: 1336px;
+    height: 908px;
+    gap: 48px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.card_colomun1{
+    
 }
