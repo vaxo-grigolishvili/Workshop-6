@@ -65,16 +65,59 @@ body{
 .card_colomun1{
     width: 1336px;
     height: 430px;
+    display: flex;
+    gap: 15px;
 }
 .card1 {
     width: 310px;
     height: 310px;
+    display: flex; 
+    flex-direction: column;
+    gap: 7px;
 }
 .card1 img{
     width: 310px;
     height: 230px;
+
+}
+.social{
+    display: flex;
+    gap: 15px;
 }
 .social img{
     width: 36px;
-    height: 36px;
+    height: 36px; 
+}
+.card1 h3{
+    width: 278px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: inter;
+    line-height: 30px;
+    color: #282828;
+    margin: 0;
+}
+.card1 h4{
+    width: 278px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: inter;
+    line-height: 22px;
+    color: #3E3E59;
+    margin: 0;
+}
+.card1 p{
+    width: 278px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: inter;
+    line-height: 22px;
+    color:#5F6980;
+    margin: 0;
+}
+.card_text{
+   margin: 0  10px 0 10px;
 }
