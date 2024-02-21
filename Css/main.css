@@ -63,5 +63,18 @@ body{
     margin-top: 30px;
 }
 .card_colomun1{
-    
+    width: 1336px;
+    height: 430px;
+}
+.card1 {
+    width: 310px;
+    height: 310px;
+}
+.card1 img{
+    width: 310px;
+    height: 230px;
+}
+.social img{
+    width: 36px;
+    height: 36px;
 }
